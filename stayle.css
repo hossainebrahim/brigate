@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{margin:0px;padding:0px;
+}
+a{
+  text-decoration: none;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;font-weight: 500;
+}
+section{
+	padding:80px 0px;
+}
+
+.topbermanuber{
+  background: #f2f2f2;
+}
+.contentner {
+  width: 1170px;
+  margin: auto;
+  padding: 0px;
+}
+.phone {
+  width: 210px;
+  float: left;
+  margin-top: 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 0px 10px;
+}
+.phone i {
+  color: #fb5200;
+}
+.email {
+  width: 777px;
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+.email i {
+  color: #fb5200;
+}
+.socail {
+  padding: 10px;
+  transition:.3s;
+}
+.socail a{
+  color: #484848;
+  padding: 12px;
+  border-right: 1px solid #ddd;
+}
+.socail a i{
+	color: #484848;
+}
+.socail i:hover{
+	color: #fb5200;
+}
+
+.socail a:first-child{
+	border-left:1px solid #ddd;
+}
+
+.parmarymanuwaper {
+  display: table;
+  width: 100%;
+}
+.logo {
+  width: 150px;
+  float: left;
+  margin-top: 18px;
+}
+.manu {
+  width: 990px;
+  float: left;
+}
+.mainmanuitem {
+  list-style: none;
+  float: right;
+
+}
+.mainmanuitem li {
+  float: left;
+  position:relative;
+}
+.mainmanuitem li a {
+  text-decoration: none;
+  font-family: oswald;
+  font-size: 15px;
+  display: block;
+  padding: 30px 25px;
+  font-weight: 500;
+  color: #3b3b3b;
+    transition:.5s;
+}
+.mainmanuitem li a:hover{
+	color:#fb5200;
+}
+#homesilder{
+	padding:0px;
+	background:url(img/slide-1.jpg);
+	background-repeat: no-repeat;
+  background-position: 100%;
+
+}
+
+.homesilderwaper {
+  color: white;
+  width: 600px;
+}
+.homesilderwaper h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 110px;
+  float: left;
+}
+.homesilderwaper p {
+  font-weight: 700;
+  line-height: 28px;
+  width: 485px;
+  margin-bottom: 30px;
+}
+#homesilderbotton {
+  background: #fb5200;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom:180px;
+}
+#homesilderbotton:hover {
+  background: #2e2c2c;
+}
+.sildernav {
+  width: 60px;
+  margin: auto;
+  padding:40px ;
+}
+.mainmanuitem li a i {
+  color: #000000b0;
+  margin-left: 3px;
+  font-size: 14px;
+}
+.sildernav span {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 3px solid #ddd;
+  display: block;
+  border-radius: 100%;
+  cursor:pointer;
+  float: left;
+  margin: 3px 3px;
+}
+.sildernav span:last-child{
+	background:#fb5200;
+	border-color:#fb5200;
+}
+#serviess{
+	background:#f5f6f6;
+}
+
+.sboxwaper {
+  overflow: hidden;
+}
+.singbox {
+  width: 232px;
+  padding: 15px;
+  background: white;
+  text-align: center;
+  float: left;
+  margin-left: 30px;
+}
+.singbox:hover{
+	background:#fb5200;
+	color:white;
+	cursor:pointer;
+}
+.singbox:hover h2,i{
+	color:white;
+}
+.singbox:hover .sboxlink a {
+	color:white;
+}
+.singbox:hover .sboxlink a i{
+	color:white;
+}
+.singbox:hover .sboxicon i{
+	color:white !important;
+}
+.sboxtital h2 {
+  font-size: 20px;
+  color: #333;
+  line-height: 28px;
+  letter-spacing: -1.1px;
+  text-transform: uppercase;
+  margin: 30px 0px;
+}
+.sboxtital {
+  width: 160px;
+  margin: auto;
+}
+
+.sboxicon {
+  text-align: center;
+  font-size: 40px;
+  margin:30px 0px;
+}
+.sboxicon i{
+	 color: #fb5200;
+}
+.sboxdesc {
+  text-align: center;
+  margin: 25px 0px;
+}
+.sboxlink {
+  text-align: center;
+  margin:30px 0px;
+}
+.sboxlink a {
+  color: #fb5200;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sboxlink i {
+  margin-left: 10px;
+  font-size: 12px;
+  color:#fb5200;
+}
+.singbox.active{
+	background:#fb5200;
+	color:white;
+}
+.singbox.active h2{
+	color:white;
+}
+
+.singbox.active a{
+	color:white;
+}
+.singbox.active i{
+	color:white;
+}
+
+.teamcontent {
+  overflow: hidden;
+}
+.teamimg {
+  width: 535px;
+  float: left;
+}
+.teamimg img {
+  max-width: 100%;
+}
+.teamdetal {
+  width: 535px;
+  float: right;
+}
+.teamtital h1 {
+  font-size: 33px;
+  margin-bottom: 15px;
+}
+.teamtital p {
+  color: #707070;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.teamfacalete ul {
+  list-style: none;
+  width: 260px;
+  float: left;
+}
+.teamfacalete ul li {
+  line-height: 40px;
+}
+
+.teamfacalete ul li a {
+  color: #303030;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.teamfacalete {
+  overflow: hidden;
+  margin-bottom: 25px;
+   transition:.3s;
+}
+.teamfacalete ul li a i {
+    color:  #303030;
+    font-size: 12px;
+	margin-right: 8px;
+}
+.teambutton a {
+    background: #fb5200;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    display: block;
+    width: 140px;
+    text-align: center;
+    border-radius: 3px;
+	 transition:.3s;
+}
+.teamfacalete ul li:hover a{
+	color:#fb5200;
+}
+.teamfacalete ul li:hover i{
+	color:#fb5200;
+}
+.teambutton a:hover{
+	background:black;
+	color:white;
+}
+#whycoolesus{
+	background:linear-gradient(#00000072,#00000072),url(img/why-choose-us1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.whycoolesuswaper {
+  overflow: hidden;
+}
+.singleicons {
+  width: 225px;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-right: 90px;
+}
+.sicons {
+  font-size: 40px;
+}
+.singleicons h2 {
+  font-size: 55px;
+  font-weight: 900;
+  margin: 10px 0px;
+  font-family: arial black;
+}
+.singleicons h4 {
+  font-size: 18px;
+}
+.singleicons:last-child{
+	margin-right:0px;
+}
+#bolgepost{
+	background:#f5f6f6;
+}
+.sectital {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.sectital h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.sectital h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 70px;
+  background: #fb5200;
+  border-bottom: 3px solid #fb5200;
+  transform: translatex(-50%);
+  left: 50%;
+}
+.sectital p {
+  width: 615px;
+  margin: auto;
+  line-height: 25px;
+  font-size: 20px;
+  color: #777;
+}
+
+.postwaper {
+  overflow: hidden;
+}
+.soingpost {
+  width: 266px;
+  overflow: hidden;
+  float: left;
+  margin-right: 35px;
+}
+.soingpost:last-child{
+	margin-right:0px;
+}
+.soingpost img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.postinfo p {
+  margin-top: 10px;
+  line-height: 23px;
+  color: #666;
+}
+
+.tablelist {
+  overflow: hidden;
+  background:#f5f6f6;
+}
+.singetable {
+  width: 300px;
+  float: left;
+  border: 1px solid #e3e3e3;
+  padding: 30px;
+  margin-left: 22px;
+  background:white;
+
+}
+.singetable:last-child{
+	margin-right:0px;
+}
+.singetable:fast-child{
+	margin-left:50px;
+}
+.singetable h3 {
+  font-size: 25px;
+}
+.singetable h1 {
+  font-size: 40px;
+  font-family: arail black;
+  margin: 8px 0px;
+  font-weight: 900;
+}
+.singetable h1 span {
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: arial black;
+  font-weight: 700;
+}
+
+.singetable ul {
+  list-style: none;
+}
+.singetable ul li {
+  line-height: 40px;
+  color:#777;
+}
+.singetable ul li i {
+  color: #fb5200;
+ font-size: 13px;
+}
+#tablegetstate:hover {
+    background: #000000d4;
+    color: white;
+}
+#tablegetstate {
+    background: #fb5200;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 800;
+    font-family: oswald;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    border-radius: 4px;
+	transition:.3s;
+    cursor:pointer;
+}
+.idesledftimg{
+	background-image:url(img/s02.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+#idess {
+  overflow: hidden;
+}
+.idesledftimg {
+  width: 50%;
+  float: left;
+  height:543px;
+  position: absolute;
+}
+.rightcontant {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  background: #222222;
+  color: white;
+}
+.rcontanttital {
+    padding: 70px;
+}
+.rcontanttital h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.ricontital:hover h2 {
+    color: #fb5200;
+    cursor: pointer;
+}
+.rcontanticons {
+    padding: 0px 70px;
+    overflow: hidden;
+    padding-bottom: 74px;
+}
+.riconsingle {
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 50px;
+}
+.ricon i {
+    width: 70px;
+    float: left;
+    color: #fb5200;
+    overflow: hidden;
+    font-size: 50px;
+}
+.ricontital {
+    width: 230px;
+    float: left;
+    overflow: hidden;
+}
+.ricontital h2 {
+    font-size: 22px;
+}
+.ricontital p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.porsones {
+  overflow: hidden;
+}
+.singporsin {
+  width: 270px;
+  overflow: hidden;
+  float: left;
+  margin-right: 30px;
+}
+.singporsin:last-child{
+	margin-right:0px;
+}
+
+.porsonesimg img {
+  width: 100%;
+  transition:.3s;
+}
+.porsonesinfo {
+  padding: 22px 15px;
+  text-align: center;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.porsonesinfo h3 {
+  font-size: 20px;
+}
+.porsonesinfo p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 8px;
+}
+
+.porsonesbut {
+  margin-top: 70px;
+  display: grid;
+  place-items: center;
+}
+.porsonesbut button {
+  background:#333;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-family: Oswald;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border-radius: 4px;
+  transition:.3s;
+  cursor:pointer;
+}
+.porsonesbut button:hover{
+	 background: #fb5200;
+	color:white;
+}
+
+.porsonesimg {
+  overflow: hidden;
+
+  position: relative;
+}
+.porlicon {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 170px;
+}
+.porlicon a {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  background: red;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  border-radius: 100%;
+  padding: 5px;
+  margin-right: 5px;
+  transition:.3s;
+}
+.porlicon a:first-child{
+	background:#3b5998;
+	opacity:0;
+	transition:.90s;
+}
+.porlicon a:nth-child(2){
+	background:#00acee;
+	opacity:0;
+	transition:.70s;
+}
+.porlicon a:nth-child(3){
+	background:#db4934;
+	opacity:0;
+	transition:.50s;
+}
+.porlicon a:last-child{
+	background:#0e76a8;
+	opacity:0;
+	transition:.30s;
+}
+.porlicon a:hover{
+	color:#333;
+	background:white;
+}
+.porlicon a i:hover{
+	color:#333;
+
+}
+.singporsin:hover .porlicon a:first-child{
+	opacity:1;
+	transform:translatey(20px);
+}
+.singporsin:hover .porlicon a:nth-child(2){
+	opacity:1;
+	transform:translatey(20px);
+}
+.singporsin:hover .porlicon a:nth-child(3){
+	opacity:1;
+	transform:translatey(20px);
+}
+.singporsin:hover .porlicon a:last-child{
+	opacity:1;
+	transform:translatey(20px);
+}
+.singporsin:hover .porsonesimg img{
+	transform:scale(1.1);
+}
+.singporsin:hover{
+	cursor:pointer;
+}
+ #projects{
+	 background:#f5f6f6;
+ }
+.projectwaper {
+    overflow: hidden;
+    /* column-count: 3; */
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+.singeproject img {
+    width: 100%;
+}
+
+.singeproject {
+    width: 362px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.singeproject:last-child {
+     margin-right:0px;
+
+}
+.projectinfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 40px 30px;
+    background: linear-gradient(to top, black,transparent 160px);
+    color: white;
+    padding-bottom: 0px;
+	  transition:.3s;
+}
+.projectmata {
+    width: 305px;
+	margin-bottom:15px;
+}
+
+.projectmata a {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#learmorebut {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  transform: translateX(-150px);
+  visibility:hidden;
+
+}
+#learmorebut i {
+  font-size: 12px;
+  margin-left: 15px;
+}
+.singeproject:hover .projectinfo {
+    padding: 40px 30px!important;
+	 background: linear-gradient(to top, black,transparent 200px)!important;
+}
+.singeproject:hover #learmorebut {
+	 visibility:visible;
+	 transition:.3s;
+     transition-delay:.3s;
+     transition-timing-function:cubic-bezier(0,0.43,0.15,1.09);
+	 transform: translateX(0px)!important;
+}
+
+.latestnewswaper {
+  overflow: hidden;
+}
+.singnews {
+  width: 370px;
+  float: left;
+  overflow: hidden;
+  margin-right: 30px;
+}
+.singnews:last-child{
+	margin-right:0px;
+}
+
+.newsimg img {
+  width: 100%;
+  transition:.3s;
+  cursor:pointer;
+}
+.singnews:hover img{
+	transform:scale(1.1);
+}
+
+.newsmata {
+  padding: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  border-left:1px solid #e5e5e5;
+  border-right:1px solid #e5e5e5;
+}
+.newscatogry a {
+    text-decoration: none;
+    font-weight: 300;
+    width: 140px;
+    float: left;
+    display: block;
+    font-size: 15px;
+}
+.newscatogry {
+    margin-bottom: 20px;
+    overflow: hidden;
+	position: relative;
+}
+.newscatogry :last-child{
+	margin-left:15px;
+}
+.newscatogry :first-child{
+	color:#999;
+}
+.newscatogry a:last-child:hover {
+	color:#fb5200 !important;
+}
+.newstital h2 a {
+    color: #333;
+    text-decoration: none;
+    font-size: 22px;
+}
+.newstital h2 {
+    margin-bottom: 12px;
+	transition:.3s;
+}
+.newstital h2:hover a{
+	color:#fb5200;
+}
+.newstital p {
+    color: #777;
+    margin-bottom: 15px;
+}
+#newsred {
+    color: #fb5200;
+    font-weight: 400;
+    text-decoration: none;
+}
+#newsred i {
+    color: #fb5200;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.newscatogry:after {
+  content: "";
+  width: 20px;
+  border-bottom: 2px solid #fb5200;
+  position: absolute;
+  left: 105px;
+  top: 7px;
+}
+
+#footer {
+  background: #1a1a1a;
+  padding-top: 200px;
+}
+
+.copyrightcontentner {
+  overflow: hidden;
+  color: #999;
+  border-top: 1px solid #333;
+}
+.copyrightcontentner.contentner {
+  overflow: hidden;
+}
+.copyrighttext {
+  width: 540px;
+  float: left;
+  padding: 25px 0px;
+}
+.copyrightmanu {
+  width: 540px;
+  float: right;
+}
+.copyrightmanu ul {
+  list-style: none;
+  float: right;
+  overflow: hidden;
+}
+.copyrightmanu ul li {
+  float: left;
+}
+.copyrightmanu ul li a {
+  text-decoration: none;
+  color: #999;
+  padding: 25px 15px;
+  display: block;
+}
+
+
+.fboxwaper {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.fbox {
+  overflow: hidden;
+  width: 265px;
+  float: left;
+  margin-right: 35px;
+}
+.fbox:last-child {
+	margin-right:0px;
+}
+.fbox h3 {
+    color: white;
+    margin-bottom: 18px;
+}
+.fbox p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.fbox {
+    color: #999;
+}
+.fboxdetal {
+    width: 230px;
+    float: right;
+    margin-bottom: 11px;
+}
+.fboxi i {
+    color: #fb5200;
+}
+.fboxi {
+    width: 35px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.fboxiw {
+    overflow: hidden;
+}
+
+#uslink {
+  list-style: none;
+}
+#uslink li {
+  line-height: 28px;
+  border-bottom: 1px solid #282828;
+  transition:.3s;
+}
+#uslink li a {
+  color: #999;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+#uslink li a i {
+  font-size: 10px;
+  margin-right: 5px;
+  color:#999;
+}
+#uslink li:last-child {
+	border-bottom:0px;
+}
+#uslink li:hover a i{
+	color:#fb5200;
+}
+#uslink li:hover a{
+	color:#fb5200;
+}
+
+.frpost {
+  overflow: hidden;
+  margin-bottom:30px;
+}
+.frpostmat {
+  width: 40px;
+  background: #313131;
+  padding: 10px;
+  float: left;
+  border-radius: 3px;
+  text-align:center;
+}
+.frpostmat span:first-child{
+	font-weight:900;
+	font-size:22px;
+}
+.frpostmat span:last-child{
+	font-weight:600;
+	font-size:10px;
+	display:black;
+	margin-top:5px;
+}
+.frposttaital {
+  width: 193px;
+  float: right;
+
+}
+.frposttaital h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #999;
+    transition:.3s;
+}
+.frposttaital h3:hover{
+	color:#fb5200;
+}
+
+.frposttaital a {
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.ficon a {
+    margin: 10px;
+}
+.ficon a i {
+    color: #999;
+}
+.ficon a:hover i{
+	color:#fb5200;
+}
+
+.suscipitwaper {
+  overflow: hidden;
+  background: #fb5200;
+  border-radius: 3px;
+}
+.subboxsingle {
+  width: 330px;
+  float: left;
+  overflow: hidden;
+  padding: 30px;
+}
+.subboxsingle:last-child{
+	margin-right:0px;
+}
+
+.subboxsingle h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.subboxes {
+
+	position:relative;
+}
+.subboxes input:first-child{
+	width:80%;
+	padding:15px;
+	border:none;
+	border-bottom-left-radius:50px;
+	border-top-left-radius:50px;
+	font-family:oswald;
+	letter-spacing:1px;
+	position:relative;
+  outline: none;
+}
+#subsubmit {
+    padding: 17px;
+    background: black;
+    color: white;
+    border: none;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 120px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right:0px;
+}
+
+.subboxsingle {
+  color: white;
+  padding-bottom: 40px;
+}
+.subcripfolicon {
+  overflow: hidden;
+}
+.subcripfolicon a {
+  width: 40px;
+  float: left;
+  border: 1px solid white;
+  place-items: center;
+  display: grid;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+}
+.subcripfolicon a:hover{
+	background:white;
+	color:black !important;
+}
+.subcripfolicon a:hover i{
+	color:black;
+}
+#suscipit {
+    position: relative;
+    margin-bottom: -148px;
+}
+.submaniber {
+  list-style: none;
+  width: 250px;
+  position: absolute;
+  top: unset;
+  background: white;
+  border-top: 1px solid #ddd;
+  padding: 25px;
+  visibility: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition:.3s;
+}
+.submaniber li {
+  float: none;
+}
+.submaniber li a {
+  padding: 8px 0px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: arial;
+  color: #0000009c;
+  transition:.6s;
+}
+.submaniber li a:before{
+	content:"";
+	display:inline-block;
+	background:#fb5200;
+	width:0px;
+	height:2px;
+	vertical-align:middle;
+	margin-right:10px;
+	transition:.6s;
+}
+.submaniber li:hover a:before{
+	width:20px;
+}
+.mainmanuitem li:hover .submaniber{
+     visibility:visible;
+     transform: scaleY(1);
+     -webkit-transform: scaleY(1);
+     -moz-transform: scaleY(1);
+     -ms-transform: scaleY(1);
+     -o-transform: scaleY(1);
+}

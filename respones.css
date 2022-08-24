@@ -1,0 +1,169 @@
+@media (max-width: 768px) {
+    .contentner {
+        width: 100%;
+        overflow: hidden;
+    }
+    .topbermanuber {
+        display: none;
+    }
+    .manu {
+        width: 100%;
+        background: black;
+        display: none;
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+}
+      .mainmanuitem {
+        float: none;
+      }
+      .mainmanuitem li {
+        float: none;
+      }
+      .mainmanuitem li a {
+        padding: 11px 11px;
+        font-weight: 300;
+        font-size: 15px;
+        color: white;
+      }
+      .mobileMenuBar i {
+        color: red;
+        position: absolute;
+        top: 27px;
+        right: 21px;
+        font-size: 30px;
+        cursor: pointer;
+      }
+      
+   .SubMenuShow{
+        display: block !important;
+        transform: scaleY(1);
+    }
+    .submaniber {
+        visibility: visible;
+        transform: scale(1);
+        background: #ee2828;
+        margin-left: 90px;
+        width: 100%;
+        border: none;
+        display: none;
+      }
+      .submaniberShow{
+          display: block;
+      }
+      .submaniber li a {
+        color: black;
+        padding: 3px;
+        border: none;
+      }
+      .mainmanuitem li a i {
+        color: white;
+      }
+
+
+
+    /* .logo {
+        width: 200px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    ul.mainmanuitem {
+        width: 100%;
+        background: #182151;
+    }
+
+    .mainmanuitem li {
+        float: initial;
+        padding: 0;
+        margin: 0px;
+    }
+
+    ul.mainmanuitem li a {
+        margin: 0;
+        padding: 8px;
+        display: block;
+        font-family: arial;
+        font-size: 14px;
+        color: white;
+        border-bottom: 1px solid #2d4049;
+    }
+
+    .manu {
+        display: table;
+        background: #0a2c3d;
+        width: 100%;
+        transform: scaleY(0.0);
+        transform-origin: top;
+        display: none;
+    }
+
+    .MenuShow {
+        display: block !important;
+        background: #0a2c3d;
+        width: 100%;
+        transform: scaleY(1);
+        transform-origin: top;
+
+    }
+
+    .PrimaryMenu .contentner {
+        padding: 0;
+    }
+
+    .TopbarMain {
+        overflow: hidden;
+    }
+
+    ul.SubMenu {
+        width: 100%;
+        position: initial;
+        display: block;
+        transform: scaleY(0);
+        visibility: visible;
+        background: black;
+        transform-origin: top;
+        display: none;
+    }
+
+
+    ul.SubMenu2 {
+        position: initial !important;
+        visibility: visible;
+        transform: scaleY(1);
+        transform-origin: top;
+        background: #0d1231;
+        width: 100%;
+        display: none;
+    }
+
+    .mobileMenuBar {
+        width: 50px;
+        float: right;
+        display: block;
+        color: black;
+        font-size: 25px;
+        height: 100%;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+
+
+    section#homeslider {
+        margin: 0;
+    }
+
+
+    .SubMenu2Show{display:block !important} */
+/* 
+    .topberwaper {
+        display: none;
+      } */
+}
